@@ -8,7 +8,7 @@ import datetime
 import argparse
 
 class PyNotes:
-    def __init__(self, config_path="~/.pynotes.ini"):
+    def __init__(self, config_path="~/pynotes.ini"):
         self.config_path = config_path
         self.config = self._load_config()
         self.platform = platform.system()
